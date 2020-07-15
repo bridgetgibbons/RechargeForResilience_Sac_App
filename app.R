@@ -146,6 +146,7 @@ ui <- navbarPage(
                                           tabPanel("Recharge Suitability Viewer",
                                                    leafletOutput("max_map"),
                                                    h5("Use the map inset to select or unselect the benefit and feasibility considerations of interest and see where they are located in relation to suitable recharge locations in your selected basin."),
+                                                   h5("Expand the map layers to change the basemap and toggle data layers on and off."),
                                                    h5("Recharge Suitability Ranks: green = 'better', red = 'worse'"))
                               )
                             )
